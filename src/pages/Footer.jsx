@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+
+
 const Footer = () => {
     return (
       <footer id="contact" className="bg-gradient-to-tr from-orange-200 to-yellow-100 text-orange-900 py-12">
@@ -31,11 +34,11 @@ const Footer = () => {
               🔗 Quick Links
             </h2>
             <ul className="text-sm space-y-2">
-              <li><a href="/" className="hover:text-orange-500 transition">Home</a></li>
-              <li><a href="/HinduTempleBeauty" className="hover:text-orange-500 transition">About Us</a></li>
+              <li><Link to="/" className="hover:text-orange-500 transition">Home</Link></li>
+              <li><Link to="/HinduTempleBeauty" className="hover:text-orange-500 transition">About Us</Link></li>
               {/* <li><a href="/" className="hover:text-orange-500 transition">Char Dham</a></li> */}
-              <li><a href="/Blog" className="hover:text-orange-500 transition">Blog</a></li> 
-              <li><a href="/contact" className="hover:text-orange-500 transition">Contact</a></li>
+              <li><Link to="/Blog" className="hover:text-orange-500 transition">Blog</Link></li> 
+              <li><Link to="/Contact" className="hover:text-orange-500 transition">Contact</Link></li>
             </ul>
           </div>
         </div>
