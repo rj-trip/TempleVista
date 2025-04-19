@@ -42,6 +42,7 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Register' element={<Register/>}/>
         <Route path='/Blog' element={<Blog/>}/>
+        <Router path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </Router>
