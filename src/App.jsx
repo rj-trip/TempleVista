@@ -11,6 +11,8 @@ import Login from './components/Login'
 import Contact from './pages/Contact';
 import HinduTempleBeauty from './pages/HinduTempleBeauty';
 import Blog from './pages/Blog';
+import TempleMapPage from './pages/TempleMapPage';
+import Register from './components/Register';
 function App() {
   return (
     <div>
@@ -30,6 +32,7 @@ function App() {
             </>
           }
         />
+        <Route path='/Search' element={<TempleMapPage/>}/>
         <Route path="/char-dham" element={<CharDhamPage />} />
         <Route path="/jyotirling-darshan" element={<JyotirlingDarshan />} />
 
@@ -37,6 +40,7 @@ function App() {
         <Route path='/HinduTempleBeauty' element={<HinduTempleBeauty/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Login' element={<Login/>}/>
+        <Route path='/Register' element={<Register/>}/>
         <Route path='/Blog' element={<Blog/>}/>
       </Routes>
       <Footer/>

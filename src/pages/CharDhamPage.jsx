@@ -22,39 +22,7 @@ const dhams = [
     },
   ];
   
-//   const CharDhamPage = () => {
-//     return (
-//       <div className="bg-orange-50 min-h-screen p-6 md:p-12">
-//         <h1 className="text-4xl font-bold text-center p-4 text-orange-800 mb-10">
-//           Char Dham - Divine Gateways of India
-//         </h1>
-  
-//         <div className="space-y-12 max-w-6xl mx-auto">
-//           {dhams.map((dham) => (
-//             <div
-//               key={dham.name}
-//               className="bg-white shadow-xl rounded-xl overflow-hidden md:flex"
-//             >
-//               <img
-//                 src={dham.img}
-//                 alt={dham.name}
-//                 className="w-full md:w-1/2 h-72 object-cover"
-//               />
-//               <div className="p-6 md:p-8 flex flex-col justify-center">
-//                 <h2 className="text-2xl font-semibold text-orange-700 mb-3">
-//                   {dham.name}
-//                 </h2>
-//                 <p className="text-gray-700 text-base">{dham.details}</p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     );
-//   };
-  
-//   export default CharDhamPage;
-  
+
 
   // src/pages/CharDhamPage.jsx
 import { useNavigate } from 'react-router-dom';

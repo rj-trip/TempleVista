@@ -7,10 +7,11 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/hinduTempleBeauty' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contact Us', href: '/contact' },
-    { name: 'Login', href: '/login' },
+    { name: 'About Us', href: '/HinduTempleBeauty' },
+    { name: 'Blog', href: '/Blog' },
+    {name:'Search',href:'/Search'},
+    { name: 'Contact Us', href: '/Contact' },
+    { name: 'Login', href: '/Login' },
   ];
 
   return (
@@ -61,12 +62,6 @@ const Navbar = () => {
     </nav>
     <nav>
       
-        <Link to="/">Home</Link>
-        <Link to="/HinduTempleBeauty">About us</Link>
-        <Link to="/Contact">Contact us</Link>
-        <Link to="/Blog">Blog</Link>
-        <Link to="/Login">Login</Link>
-       
 
     </nav>
     </div>
